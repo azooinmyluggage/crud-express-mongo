@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southindia"
+        },
+        "virtualMachineName": {
+            "value": "express-mongo-starwars-web-server"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "adminUsername": {
+            "value": "atulm"
+        },
+        "virtualNetworkName": {
+            "value": "express-mongo-starwars-rg-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "express-mongo-starwa77"
+        },
+        "networkSecurityGroupName": {
+            "value": "express-mongo-starwars-web-server-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "expressmongostarwarsr802"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/expressmongostarwarsr802"
+        },
+        "addressPrefix": {
+            "value": "172.16.8.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "172.16.8.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "express-mongo-starwars-web-server-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
