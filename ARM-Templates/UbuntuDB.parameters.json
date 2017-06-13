@@ -6,7 +6,7 @@
             "value": "southindia"
         },
         "virtualMachineName": {
-            "value": "express-mongo-starwars-web-server"
+            "value": "express-mongo-starwars-db-server"
         },
         "virtualMachineSize": {
             "value": "Standard_DS1_v2"
@@ -15,25 +15,25 @@
             "value": "atulm"
         },
         "virtualNetworkName": {
-            "value": "express-mongo-starwars-rg-vnet"
+            "value": "express-mongo-starwars-db-rg-vnet"
         },
         "networkInterfaceName": {
-            "value": "express-mongo-starwa77"
+            "value": "express-mongo-starwadb"
         },
         "networkSecurityGroupName": {
-            "value": "express-mongo-starwars-web-server-nsg"
+            "value": "express-mongo-starwars-db-server-nsg"
         },
         "adminPassword": {
             "value": null
         },
         "diagnosticsStorageAccountName": {
-            "value": "expressmongostarwarsr802"
+            "value": "expressmongostarwarsrdb"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/expressmongostarwarsr802"
+            "value": "Microsoft.Storage/storageAccounts/expressmongostarwarsrdb"
         },
         "addressPrefix": {
             "value": "172.16.8.0/24"
@@ -45,7 +45,7 @@
             "value": "172.16.8.0/24"
         },
         "publicIpAddressName": {
-            "value": "express-mongo-starwars-web-server-ip"
+            "value": "express-mongo-starwars-db-server-ip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"

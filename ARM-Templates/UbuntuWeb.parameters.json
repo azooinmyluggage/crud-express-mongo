@@ -15,10 +15,10 @@
             "value": "atulm"
         },
         "virtualNetworkName": {
-            "value": "express-mongo-starwars-rg-vnet"
+            "value": "express-mongo-starwars-web-rg-vnet"
         },
         "networkInterfaceName": {
-            "value": "express-mongo-starwa77"
+            "value": "express-mongo-starwawb"
         },
         "networkSecurityGroupName": {
             "value": "express-mongo-starwars-web-server-nsg"
@@ -27,13 +27,13 @@
             "value": null
         },
         "diagnosticsStorageAccountName": {
-            "value": "expressmongostarwarsr802"
+            "value": "expressmongostarwarsrweb"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/expressmongostarwarsr802"
+            "value": "Microsoft.Storage/storageAccounts/expressmongostarwarsrweb"
         },
         "addressPrefix": {
             "value": "172.16.8.0/24"
