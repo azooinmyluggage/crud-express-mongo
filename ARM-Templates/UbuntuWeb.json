@@ -105,36 +105,6 @@
             }
         },
         {
-            "name": "microsoft.custom-script-linux-20170613232500",
-            "apiVersion": "2015-01-01",
-            "type": "Microsoft.Resources/deployments",
-            "properties": {
-                "mode": "incremental",
-                "templateLink": {
-                    "uri": "https://gallery.azure.com/artifact/20161101/microsoft.custom-script-linux-arm.2.0.50/Artifacts/MainTemplate.json"
-                },
-                "parameters": {
-                    "vmName": {
-                        "value": "express-mongo-starwars-web-server"
-                    },
-                    "location": {
-                        "value": "southindia"
-                    },
-                    "fileUris": {
-                        "value": [
-                            "https://iaasv2tempstoragehk.blob.core.windows.net/vmextensionstemporary-1003bffd968c3506-20170613175344448/script.sh?sv=2015-04-05&sr=c&sig=SxvI7IZ8eYF14ysdE7p8Dp3IMkt5NJw9kSomrDUH1yw%3D&se=2017-06-14T17%3A53%3A44Z&sp=rw"
-                        ]
-                    },
-                    "commandToExecute": {
-                        "value": "sh script.sh"
-                    }
-                }
-            },
-            "dependsOn": [
-                "[concat('Microsoft.Compute/virtualMachines/', parameters('virtualMachineName'))]"
-            ]
-        },
-        {
             "name": "[parameters('diagnosticsStorageAccountName')]",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2015-06-15",
