@@ -1,12 +1,11 @@
 echo "Start script run"
-sudo apt-get -qq update
-echo "Install curl"
-sudo apt-get install -y curl
+apt-get -qq update
 echo "Source update"
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get -qq update
+
+apt-get -qq update
 echo "Install Node"
-sudo apt-get install -y nodejs
+apt-get install -y nodejs
 echo "Install Nginx"
 sudo apt-get install -y nginx
 echo "Configure Nginx"
