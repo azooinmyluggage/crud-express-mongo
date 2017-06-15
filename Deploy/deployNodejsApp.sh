@@ -1,13 +1,10 @@
 #!/bin/bash
-
 echo "Updating system..."
 sudo apt-get update
-
 echo "Start script run"
 sudo apt-get update
 echo "Source update"
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-
 apt-get -qq update
 echo "Install Node"
 apt-get install -y nodejs
