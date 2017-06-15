@@ -1,5 +1,10 @@
+#!/bin/bash
+
+echo "Updating system..."
+sudo apt-get update
+
 echo "Start script run"
-apt-get -qq update
+sudo apt-get update
 echo "Source update"
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
