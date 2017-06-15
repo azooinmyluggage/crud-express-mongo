@@ -1,4 +1,3 @@
-#!/bin/sh
 echo "Start script run"
 sudo apt-get -qq update
 echo "Install curl"
